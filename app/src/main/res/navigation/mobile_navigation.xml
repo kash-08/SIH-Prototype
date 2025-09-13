@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.company.myapplication1.DashboardFragment"
+        android:label="@string/dashboard_title"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_diet_plan"
+        android:name="com.company.myapplication1.DietPlanFragment"
+        android:label="@string/diet_plan_card"
+        tools:layout="@layout/fragment_diet_plan" />
+
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.company.myapplication1.ProgressFragment"
+        android:label="@string/progress_card"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.company.myapplication1.ProfileFragment"
+        android:label="@string/profile_card"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_chatbot"
+        android:name="com.company.myapplication1.ChatbotFragment"
+        android:label="@string/chatbot_card"
+        tools:layout="@layout/fragment_chatbot" />
+
+</navigation>
+

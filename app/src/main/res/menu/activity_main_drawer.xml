@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard_title" />
+
+        <item
+            android:id="@+id/nav_diet_plan"
+            android:icon="@drawable/ic_diet"
+            android:title="@string/diet_plan_card" />
+
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_progress"
+            android:title="@string/progress_card" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile_card" />
+
+        <item
+            android:id="@+id/nav_chatbot"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/chatbot_card" />
+    </group>
+</menu>
+
