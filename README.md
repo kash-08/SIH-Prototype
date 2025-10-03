@@ -15,7 +15,7 @@ Team: Tantra Techies
 
 Event: Smart India Hackathon 2025
 
-✨ Key Features
+✨ Key Features <br>
 🏠 Dashboard
 Welcome interface with quick access cards
 
