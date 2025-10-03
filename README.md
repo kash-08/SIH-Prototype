@@ -1,4 +1,4 @@
-AUSADHI.AI - Ayurvedic Diet Management App
+AUSADHI.AI - Ayurvedic Diet Management App<br>
 📱 Project Overview
 AUSADHI.AI is a comprehensive cloud-based practice management and nutrient analysis software tailored for Ayurvedic dietitians. This Android prototype demonstrates a patient-facing mobile application that provides personalized Ayurvedic diet plans, progress tracking, and AI-powered health assistance.
 
